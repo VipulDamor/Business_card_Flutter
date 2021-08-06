@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
+                        letterSpacing: 2.5,
                         fontFamily: "Source Sans Pro"),
                   ),
                   SizedBox(
@@ -52,9 +53,10 @@ class MyApp extends StatelessWidget {
                           color: Colors.teal.shade900
                       ),
                       title: Text(
-                        "+91 84600 39101",
+                        "+91 12345 67890",
                         style: TextStyle(
-                            fontFamily: "Source Sans Pro", fontSize: 16.0),
+                            fontFamily: "Source Sans Pro",
+                            fontSize: 16.0),
                       ),
                     ),
 
@@ -67,9 +69,11 @@ class MyApp extends StatelessWidget {
                         color: Colors.teal,
                       ),
                       title: Text(
-                        "vipuldamor@gmail.com",
+                        "vipul@email.com",
                         style: TextStyle(
-                            fontFamily: "Source Sans Pro", fontSize: 16.0),
+                            fontFamily: "Source Sans Pro",
+                            fontSize: 16.0,
+                        ),
                       ),
                     ),
                   )
